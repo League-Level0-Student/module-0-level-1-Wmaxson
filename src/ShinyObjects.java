@@ -20,6 +20,7 @@ public class ShinyObjects {
 		// 3. Play the sound that many times
 		for (int i = 0; i < SHINY; i++) {
 			playMisterZee();
+			//
 		}
 	
 
