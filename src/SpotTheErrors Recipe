@@ -7,20 +7,20 @@
  Find the errors in this code without getting help from Eclipse
 
 
-String repeat = JOptionPain.showInput_("how many Beullers?");		
-int numRepeats = Integer.parse_(repeat);
-for (int i_; i > repeat; i++) {
-System.print.out(_Beuller_)_
+String repeat = JOptionPain.showInput_("how many Beullers?"); Pain - Pane	_ is Dialog
+int numRepeats = Integer.parse_(repeat); parse is parseInt
+for (int i_; i > repeat; i++) { Change i to i = 0. Change repeat to numRepeats 
+System.print.out(_Beuller_)_ // add ;. Change print.out to out.print
 } 
 
 --------------------
 
 String answer = JOptionPane.showInputDialog("How many bottles?");
-int bottles = integer.passInt(bottles);
+int bottles = integer.passInt(bottles); change intager to Intager. passInt is parseInt and bottles shpuld be awnser 
 for (i = bottles; i < 0; i++) {			
-	JOptionPane.showMessageDialog(nil,i  " green bottles hanging on the wall  /nCrash!!!!");
+	JOptionPane.showMessageDialog(nil,i  " green bottles hanging on the wall  /nCrash!!!!"); change nil to null. change i to  answer + 
 }
-JOptionPane.showMassageDialog(nil, "There's a lot of broken glass out here");
+JOptionPane.showMassageDialog(nil, "There's a lot of broken glass out here"); change nil to null. change massage to message
 
 
 What is the output from the correct code??
